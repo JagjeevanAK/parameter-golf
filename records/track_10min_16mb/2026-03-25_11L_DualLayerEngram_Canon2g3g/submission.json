@@ -1,0 +1,11 @@
+{
+  "author": "Jagjeevan Kashid",
+  "github_id": "jagjeevankashid",
+  "name": "11L Dual-Layer Engram + Canonical 2/3-gram Memory",
+  "blurb": "Record candidate on the 11L XSA4/EMA/Partial-RoPE/LN-scale stack. Replaces input-only BigramHash with selected-layer Engram modules at layers 1 and 5 using canonicalized SentencePiece IDs, dual-order 2/3-gram hashed memory, contextual gating, and a causal depthwise mixer. Full GPU metrics pending validation.",
+  "date": "2026-03-25",
+  "status": "pending_gpu_validation",
+  "checks": {
+    "py_compile": "passed"
+  }
+}
